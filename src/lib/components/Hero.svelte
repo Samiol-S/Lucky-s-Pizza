@@ -35,7 +35,7 @@
 
 
   .background-image {
-    background-image: url("../../images/hero_image.webp");
+    background-image: url("/images/hero_image.webp");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 0rem ;

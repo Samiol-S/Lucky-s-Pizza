@@ -1,6 +1,9 @@
 <script>
-  import Cta from "./Cta.svelte";
-  import Header from "./Header.svelte";
+    import Cta from "./Cta.svelte";
+
+  
+    import Header from "./Header.svelte";
+  
 
 </script>
 
@@ -32,7 +35,7 @@
 
 
   .background-image {
-    background-image: url("../../images/hero_image.png");
+    background-image: url("../../images/hero_image.webp");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 0rem ;

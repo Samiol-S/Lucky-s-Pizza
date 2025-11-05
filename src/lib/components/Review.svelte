@@ -3,7 +3,7 @@
 </script>
 
 <div class="review ">
-  <img class="image" src="/images/five_stars.png" alt="">
+  <img class="image" src="/images/five_stars.webp" alt="">
   <p class="comment">{text}</p>
   <p class="person">~ {name}</p>
   

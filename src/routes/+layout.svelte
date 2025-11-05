@@ -1,5 +1,5 @@
 <script>
-	import favicon from '$lib/assets/favicon.png';
+	import favicon from '$lib/assets/favicon.webp';
 	import { onMount } from 'svelte';
 	import '../global.css';
 	import Lenis from 'lenis';

@@ -23,13 +23,13 @@
 </script>
 
 <header>
-  <button onclick={navigateToUrl("https://linktr.ee/luckyspizzas#405442614")} class="nav-item">Menu</button>
+  <a href="https://linktr.ee/luckyspizzas#405442614" class="nav-item" target="_blank">Menu</a>
   <a class="nav-item nav-start" href="#footer">Contact Us</a>
 
-  <img class="logo nav-start nav-end" src="/images/Luckys_logo.png" alt="">
+  <img class="logo nav-start nav-end" src="/images/Luckys_logo.webp" alt="">
   
   <a class="nav-item me-5 nav-end" href="#about1">About Us</a>
-  <button onclick={navigateToUrl("https://linktr.ee/luckyspizzas#405442614")} class="nav-cta ms-4">Order Online</button>
+  <a href="https://linktr.ee/luckyspizzas#405442614" class="nav-cta ms-4" target="_blank">Order Online</a>
 
   <button onclick={removeClass} class="side-menu-button">
     <img src="/images/hamburger-menu.png" class="side-menu-image"  alt="side menu button">
@@ -41,7 +41,7 @@
 
 <div bind:this={sideMenu} class="side-menu none">
   <div class="header">
-    <img class="logo2" src="/images/Luckys_logo.png" alt="">
+    <img class="logo2" src="/images/Luckys_logo.webp" alt="">
 
     <button onclick="{addClass}" class="arrow-button">
       <img class="arrow" src="/images/arrow.png" alt="">
@@ -50,10 +50,9 @@
   </div>
 
   <div class="menu-items1">
-    <button onclick={() => {
+    <a href="https://linktr.ee/luckyspizzas#405442614" onclick={() => {
       addClass();
-      navigateToUrl("https://linktr.ee/luckyspizzas#405442614");
-    }} class="menu-item text-center" >Menu</button>
+    }} class="menu-item text-center"  target="_blank">Menu</a>
 
     <a onclick="{addClass}" class="menu-item text-center" href="#footer">Contact Us</a>
 

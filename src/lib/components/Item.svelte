@@ -40,9 +40,9 @@
 
   <p class="item-description text-center">{itemDescription}</p>
 
-  <button onclick={navigateToUrl("https://linktr.ee/luckyspizzas#405442614")} class="view-button">
+  <a href="https://linktr.ee/luckyspizzas#405442614" class="view-button" target="_blank">
     View
-  </button>
+  </a>
 
 </div>
 
@@ -86,6 +86,7 @@
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+    text-decoration: none;
 
   }
 

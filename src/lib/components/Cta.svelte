@@ -15,7 +15,7 @@
 </script>
 
 <div class="button-container px-1  d-flex justify-content-center align-items-center">
-  <button onclick={navigateToUrl("https://linktr.ee/luckyspizzas#405442614")} class='cta p-0 m-0'>{text}</button>
+  <a href="https://linktr.ee/luckyspizzas#405442614" class='cta p-0 m-0' target="_blank">{text}</a>
 </div>
 
 <style>
@@ -24,6 +24,8 @@
     width: 8.9125rem;
     height: 3.725rem;
     transition: scale 0.3s ease;
+
+    
   }
   .cta{
     transition: background-color 0.2s , color 0.2s;
@@ -39,6 +41,11 @@
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+    text-decoration: none;
+
+    display: grid;
+    justify-content: center;
+    align-items: center; 
   }
 
   .cta:hover {

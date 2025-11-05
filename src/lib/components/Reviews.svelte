@@ -22,7 +22,7 @@
 
 <style>
   .reviews-container {
-    background-image: url('/images/reviews_background.png');
+    background-image: url('/images/reviews_background.webp');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;

@@ -12,7 +12,7 @@
 
 <div class="footer" id="footer">
   <div class="d-flex justify-content-center align-items-center">
-    <img class="logo" src="/images/Luckys_logo.png" alt="">
+    <img class="logo" src="/images/Luckys_logo.webp" alt="">
 
   </div>
 
@@ -21,7 +21,7 @@
       <p class="title">Links</p>
       <p>
         <a href="# ">Home</a> <br>
-        <button onclick={navigateToUrl("https://linktr.ee/luckyspizzas#405442614")} class="a-button">Menu</button> <br>
+        <a href="https://linktr.ee/luckyspizzas#405442614" class="a-button" target="_blank">Menu</a> <br>
         <a href="#about1">About Us</a>
       </p>
     </div>
@@ -31,8 +31,8 @@
       <p>
         310.853.3419 - <span style="color:var(--color-accent);">Canoga Park</span> <br>
         310.344.2610 - <span style="color:var(--color-accent);">Gardena</span> <br>
-        <button onclick={navigateToUrl("https://www.instagram.com/luckyspizzas/?hl=en")}
-          class="a-button" >Instagram</button>
+        <a href="https://www.instagram.com/luckyspizzas/?hl=en"
+          class="a-button" target="_blank">Instagram</a>
       </p>    
     </div>
   

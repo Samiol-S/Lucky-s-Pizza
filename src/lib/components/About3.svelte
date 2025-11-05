@@ -13,12 +13,11 @@
           transform: ["translateY(10px)", "translateY(-10px)"]
         },
       
-      { duration: 1, easing: "linear" }
+      { easing: "linear" }
     );
 
     scroll(animation, {
-      target: img,                // the element to watch
-      axis: "y",
+      target: img,                
       offset: ["start end", "end start"], 
     });
 
